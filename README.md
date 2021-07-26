@@ -8,4 +8,8 @@ Install Go
 
 Build localalign.go
 
-`$ cd Local-Alignment; go build Local-Alignment`
+`$ cd Local-Alignment; go build localalign.go`
+## Usage
+The program takes at least 2 arguments, the locations of the sequences you want to align. For example
+
+`$ ./localalign -seq1=examples/seq1 -seq2=examples/seq2`
