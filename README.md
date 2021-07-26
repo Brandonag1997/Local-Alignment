@@ -1,6 +1,6 @@
 # Local-Alignment
 ## Introduction
-A Go implementation of the Smith–Waterman algorithm. This program will find the optimal global alignments for two DNA, RNA or amino acid sequences.
+A Go implementation of the Smith–Waterman algorithm. This program will find an optimal local alignment for two DNA, RNA or amino acid sequences.
 # Installation
 Install Go
 
