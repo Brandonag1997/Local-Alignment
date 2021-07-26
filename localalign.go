@@ -49,10 +49,10 @@ func main() {
 	var sequence1, sequence2 string
 	flag.StringVar(&sequence1, "seq1", "", "Sequence 1")
 	flag.StringVar(&sequence2, "seq2", "", "Sequence 2")
-	gopen := flag.Int("gapopen", 2, "Penalty for opening a gap, default is 2")
+	gopen := flag.Int("gapopen", 2, "Penalty for opening a gap")
 	gextend := flag.Int("gapextend", -1, "Penalty for extending a gap, default is linear")
-	match := flag.Int("match", 3, "Score for a match, default is 3")
-	mismatch := flag.Int("mismatch", -3, "Score for a mismatch, default is -3")
+	match := flag.Int("match", 3, "Score for a match")
+	mismatch := flag.Int("mismatch", -3, "Score for a mismatch")
 	smat := flag.String("similarity_matrix", "", "similarity matrix")
 	flag.Parse()
 
