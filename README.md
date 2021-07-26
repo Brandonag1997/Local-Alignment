@@ -5,3 +5,7 @@ A Go implementation of the Smith–Waterman algorithm. This program will find th
 Install Go
 
 `$ git clone "https://github.com/Brandonag1997/Local-Alignment"`
+
+Build localalign.go
+
+`$ cd Local-Alignment; go build Local-Alignment`
